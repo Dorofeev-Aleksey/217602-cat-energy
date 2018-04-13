@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Анна Тишачкина](https://up.htmlacademy.ru/adaptive/14/user/217602).
-* Наставник: `Сергей Козлов`.
+* Наставник: [Сергей Козлов](https://htmlacademy.ru/profile/id27386).
 
 ---
 
