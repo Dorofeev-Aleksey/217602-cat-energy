@@ -1,0 +1,36 @@
+@import "blocks/base/_normalize.scss";
+@import "blocks/base/_fonts.scss";
+
+@import "blocks/helpers/_variables.scss";
+@import "blocks/helpers/_mixins.scss";
+
+@import "blocks/layout/_page.scss";
+@import "blocks/layout/_additional.scss";
+@import "blocks/layout/_container.scss";
+@import "blocks/layout/_form.scss";
+@import "blocks/layout/_form-additionally.scss";
+@import "blocks/layout/_form-cat-data.scss";
+@import "blocks/layout/_form-comment.scss";
+@import "blocks/layout/_form-contact.scss";
+@import "blocks/layout/_form-option.scss";
+@import "blocks/layout/_goods-list.scss";
+@import "blocks/layout/_living-example.scss";
+@import "blocks/layout/_main-nav.scss";
+@import "blocks/layout/_map.scss";
+@import "blocks/layout/_menu-list.scss";
+@import "blocks/layout/_page-footer.scss";
+@import "blocks/layout/_page-header.scss";
+@import "blocks/layout/_page-main.scss";
+@import "blocks/layout/_product.scss";
+@import "blocks/layout/_products-wrap.scss";
+@import "blocks/layout/_programs-cats.scss";
+@import "blocks/layout/_programs-work.scss";
+@import "blocks/layout/_selection-program-box";
+@import "blocks/layout/_footer-academy.scss";
+@import "blocks/layout/_footer-logo.scss";
+@import "blocks/layout/_logo.scss";
+
+@import "blocks/modules/_btn-block.scss";
+@import "blocks/modules/_social.scss";
+@import "blocks/modules/_title-block-index.scss";
+@import "blocks/modules/_visually-hidden.scss";
