@@ -18,14 +18,14 @@
 .products-wrap__more-text {
   font-size: 12px;
   line-height: 16px;
-  @include font-arial();
+  @include arial();
 }
 
 .products-wrap__more-btn {
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  padding: 10px 0px;
+  padding: 10px 0;
 
   font-size: 14px;
   text-decoration: none;

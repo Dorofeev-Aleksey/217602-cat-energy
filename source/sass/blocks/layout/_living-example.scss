@@ -9,7 +9,7 @@
 }
 
 .living-example__text {
-  @include font-arial();
+  @include arial();
   font-size: 14px;
   line-height: 18px;
 }
@@ -45,7 +45,7 @@
 
   width: 80px;
 
-  @include font-arial();
+  @include arial();
   font-size: 12px;
   line-height: 12px;
   text-transform: lowercase;
