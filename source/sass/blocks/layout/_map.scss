@@ -36,7 +36,7 @@
 .map__address {
   flex-basis: 50%;
 
-  @include arial();
+  @include additional-font();
   font-size: 14px;
   line-height: 20px;
 }
