@@ -1,4 +1,6 @@
 .living-example {
+  padding-bottom: 40px;
+
   background-color: #f2f2f2;
 }
 
@@ -6,17 +8,10 @@
   padding: 0 20px;
 }
 
-.living-example__title {
-  font-size: 36px;
-  line-height: 60px;
-  font-weight: 400;
-}
-
 .living-example__text {
-  font-family: Arial;
+  @include font-arial();
   font-size: 14px;
   line-height: 18px;
-  color: #444444;
 }
 
 .living-example__result {
@@ -41,7 +36,6 @@
 .living-example__result-info {
   font-size: 24px;
   line-height: 10px;
-  text-transform: uppercase;
 }
 
 .living-example__result-text {
@@ -51,10 +45,9 @@
 
   width: 80px;
 
-  font-family: Arial;
+  @include font-arial();
   font-size: 12px;
   line-height: 12px;
-  color: #444444;
   text-transform: lowercase;
 
   background-color: #f2f2f2;
@@ -68,6 +61,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  margin-top: 25px;
 }
 
 .living-example__range-wrap {
@@ -79,10 +74,11 @@
 .living-example__range-text {
   font-size: 16px;
   line-height: 20px;
-  text-transform: uppercase;
 }
 
 .living-example__range-bar {
+  position: relative;
+
   height: 12px;
   width: 84px;
 
@@ -92,14 +88,24 @@
   border-radius: 5px;
 }
 
-.living-example__range-toggle {
+.living-example__range-bar::before {
+  content: "";
+
   position: absolute;
-  top: 4px;
+  top: 3px;
   left: 5px;
 
   height: 6px;
   width: 35px;
 
-  background-color: #68b738;
+  background-color: $btn-color;
   border-radius: 5px;
+}
+
+.living-example__range-btn {
+  text-transform: uppercase;
+
+  background: none;
+
+  border: none;
 }

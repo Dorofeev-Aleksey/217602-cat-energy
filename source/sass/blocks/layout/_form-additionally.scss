@@ -1,9 +1,18 @@
-@font-face {
-    font-family: Oswald Regular;
-    src: url("../fonts/oswaldregular.woff");
+.form-additionally {
+  padding: 0 20px;
+
+  border: none;
 }
 
-@font-face {
-    font-family: Oswald Medium;
-    src: url("../fonts/oswaldmedium.woff");
+.form-additionally__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
+.form-additionally__item {
+  margin-bottom: 20px;
+}
+
+
+

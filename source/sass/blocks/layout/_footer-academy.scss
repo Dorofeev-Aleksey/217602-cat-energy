@@ -6,8 +6,12 @@
 
 .footer-academy__link {
   margin: 30px 0;
+
+  line-height: 16px;
+  @include font-arial();
+  text-decoration: none;
 }
 
-.footer-academy__link-img {
-  margin: 23px 0;
+.footer-academy__svg path {
+  fill: #444444;
 }

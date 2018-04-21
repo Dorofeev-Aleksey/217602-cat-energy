@@ -1,9 +1,25 @@
-@font-face {
-    font-family: Oswald Regular;
-    src: url("../fonts/oswaldregular.woff");
+.goods-list {
+  @include list-clear();
+
+  margin: 40px 0;
+
+  border-top: 1px solid #e6e6e6;
 }
 
-@font-face {
-    font-family: Oswald Medium;
-    src: url("../fonts/oswaldmedium.woff");
+.goods-list__item {
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.goods-list__item-title {
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.goods-list__item-amount,
+.goods-list__item-val {
+  font-size: 14px;
+  line-height: 14px;
+  @include font-arial();
 }

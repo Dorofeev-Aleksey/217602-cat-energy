@@ -1,9 +1,10 @@
-@font-face {
-    font-family: Oswald Regular;
-    src: url("../fonts/oswaldregular.woff");
+.form-comment {
+  margin-bottom: 20px;
+  padding: 0 20px;
+
+  border: none;
 }
 
-@font-face {
-    font-family: Oswald Medium;
-    src: url("../fonts/oswaldmedium.woff");
+.form-comment textarea {
+  width: 100%;
 }

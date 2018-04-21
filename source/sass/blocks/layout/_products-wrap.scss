@@ -1,9 +1,36 @@
-@font-face {
-    font-family: Oswald Regular;
-    src: url("../fonts/oswaldregular.woff");
+.products-wrap__more {
+  position: relative;
+
+  margin-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 25px;
+
+  text-align: center;
+
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
 }
 
-@font-face {
-    font-family: Oswald Medium;
-    src: url("../fonts/oswaldmedium.woff");
+.products-wrap__more-title {
+  font-weight: 400;
+}
+
+.products-wrap__more-text {
+  font-size: 12px;
+  line-height: 16px;
+  @include font-arial();
+}
+
+.products-wrap__more-btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding: 10px 0px;
+
+  font-size: 14px;
+  text-decoration: none;
+  color: #444444;
+  text-align: center;
+
+  background-color: #f2f2f2;
 }

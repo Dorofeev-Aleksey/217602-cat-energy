@@ -1,12 +1,33 @@
+.additional__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: none;
+}
+
 .additional__all {
   margin: 0 auto;
+  padding-top: 65px;
+  padding-bottom: 47px;
 
-  background-color: #68b738;
+  background-color: $btn-color;
   background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.additional__all-image {
+  margin-left: 115px;
+  margin-bottom: 65px;
 }
 
 .additional__all-text {
   width: 165px;
 
+  margin-left: 60px;
+
+  line-height: 20px;
+  @include font-arial();
   color: #ffffff;
+  text-align: center;
 }

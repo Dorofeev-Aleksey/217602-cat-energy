@@ -1,10 +1,15 @@
 .btn-block {
-  padding: 10px 70px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding: 10px 0px;
 
   font-size: 14px;
   text-decoration: none;
   color: #ffffff;
-  text-transform: uppercase;
+  text-align: center;
 
-  background-color: #68b738;
+  background-color: $btn-color;
+
+  border: none;
 }

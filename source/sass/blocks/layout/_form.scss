@@ -1,9 +1,41 @@
-@font-face {
-    font-family: Oswald Regular;
-    src: url("../fonts/oswaldregular.woff");
+.form__wrap {
+  display: flex;
+
+  margin-bottom: 15px;
 }
 
-@font-face {
-    font-family: Oswald Medium;
-    src: url("../fonts/oswaldmedium.woff");
+.form__wrap input {
+  width: 100%;
+
+  padding: 10px 0;
+  padding-left: 10px;
+}
+
+.form__wrap label {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.form__title {
+  margin-bottom: 30px;
+
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.form__btn {
+  margin-bottom: 10px;
+
+  text-transform: uppercase;
+}
+
+.form__text {
+  margin-bottom: 40px;
+
+  font-size: 14px;
+  line-height: 16px;
+  @include font-arial();
+  text-align: center;
 }

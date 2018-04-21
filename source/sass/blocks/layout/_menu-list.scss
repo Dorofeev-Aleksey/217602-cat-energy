@@ -1,7 +1,5 @@
 .menu-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+  @include list-clear();
 
   background: #ffffff;
 }
@@ -19,7 +17,6 @@
   font-weight: 500;
   text-decoration: none;
   color: #000000;
-  text-transform: uppercase;
 }
 
 .menu-list__item:hover .menu-list__link {
