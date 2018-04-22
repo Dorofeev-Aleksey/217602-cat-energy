@@ -9,7 +9,7 @@
 }
 
 .living-example__text {
-  @include additional-font();
+  @include font-family();
   font-size: 14px;
   line-height: 18px;
 }
@@ -45,9 +45,12 @@
 
   width: 80px;
 
-  @include additional-font();
+  font-family: $arial;
   font-size: 12px;
   line-height: 12px;
+
+  @include textdecor-arial();
+
   text-transform: lowercase;
 
   background-color: #f2f2f2;

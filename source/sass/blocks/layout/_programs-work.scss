@@ -12,8 +12,10 @@
   padding-left: 80px;
   margin-bottom: 40px;
 
-  @include additional-font();
+  font-family: $arial;
   font-size: 14px;
+
+  @include textdecor-arial();
 }
 
 .programs-work__item::before {

@@ -4,8 +4,7 @@
   list-style: none;
 }
 
-@mixin additional-font() {
-  font-family: "Arial";
+@mixin textdecor-arial() {
   text-transform: none;
   color: #444444;
 }

@@ -26,8 +26,9 @@
 
   margin-left: 60px;
 
+  font-family: $arial;
   line-height: 20px;
-  @include additional-font();
+  text-transform: none;
   color: #ffffff;
   text-align: center;
 }

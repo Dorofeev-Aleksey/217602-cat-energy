@@ -36,7 +36,9 @@
 .map__address {
   flex-basis: 50%;
 
-  @include additional-font();
+  font-family: $arial;
   font-size: 14px;
   line-height: 20px;
+
+  @include textdecor-arial();
 }
