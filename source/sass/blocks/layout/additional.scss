@@ -1,6 +1,5 @@
 .additional__title {
   font-size: 24px;
-  line-height: 24px;
   font-weight: 400;
   text-transform: none;
 }
@@ -10,7 +9,7 @@
   padding-top: 65px;
   padding-bottom: 47px;
 
-  background-color: $btn-color;
+  background-color: $color-btn;
   background-image: url("../img/gift-photo-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,8 +25,7 @@
 
   margin-left: 60px;
 
-  font-family: $arial;
-  line-height: 20px;
+  font-family: $font-arial;
   text-transform: none;
   color: #ffffff;
   text-align: center;

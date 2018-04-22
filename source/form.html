@@ -34,22 +34,22 @@
 
     <main class="page-main">
       <h1 class="page-main__title">Подбор программы</h1>
-      <p class="page-main__text">Заполните анкету и&nbsp;мы&nbsp;подберем прграмму питания для вашего кота</p>
+      <p class="page-main__text">Заполните анкету и&nbsp;мы&nbsp;подберем программу питания для вашего кота</p>
 
       <form class="form" method="post" action="https://echo.htmlacademy.ru">
         <fieldset class="form__cat-data form-cat-data">
           <div class="form__wrap form-cat-data__wrap">
-            <label for="cat-data-name" name="cat-data-name">Имя:*</label>
+            <label for="cat-data-name">Имя:*</label>
             <input type="text" id="cat-data-name" name="cat-data-name" placeholder="Барсик">
           </div>
 
           <div class="form__wrap form-cat-data__wrap">
-            <label for="cat-data-weight" name="cat-data-weight">Вес(кг):*</label>
+            <label for="cat-data-weight">Вес(кг):*</label>
             <input type="number" id="cat-data-weight" name="cat-data-weight" placeholder="7">
           </div>
 
           <div class="form__wrap form-cat-data__wrap">
-            <label for="cat-data-age" name="cat-data-age">Возраст(лет):*</label>
+            <label for="cat-data-age">Возраст(лет):*</label>
             <input type="number" id="cat-data-age" name="cat-data-age" placeholder="7">
           </div>
         </fieldset>
@@ -58,17 +58,17 @@
           <ul class="form-option__list">
             <li class="form-option__item">
               <input type="radio" id="option-slim" name="option-slim" checked>
-              <label for="option-slim" name="option-slim">Похудение</label>
+              <label for="option-slim">Похудение</label>
             </li>
 
             <li class="form-option__item">
               <input type="radio" id="option-pro" name="option-pro">
-              <label for="option-pro" name="option-pro">Набор массы</label>
+              <label for="option-pro">Набор массы</label>
             </li>
 
             <li class="form-option__item">
               <input type="radio" id="option-need" name="option-need">
-              <label for="option-need" name="option-need">Не&nbsp;знаю (нужен ваш совет)</label>
+              <label for="option-need">Не&nbsp;знаю (нужен ваш совет)</label>
             </li>
           </ul>
         </fieldset>
@@ -77,19 +77,19 @@
           <legend class="form__title form-contact__title">Контактные данные (владельца кота)</legend>
 
           <div class="form__wrap form-contact__wrap">
-            <label for="contact-email" name="contact-email">E-mail:*</label>
+            <label for="contact-email">E-mail:*</label>
             <input type="email" id="contact-email" name="contact-email" placeholder="kuklachev@gmail.com">
           </div>
 
           <div class="form__wrap form-contact__wrap">
-            <label for="contact-tel" name="contact-tel">Телефон:*</label>
+            <label for="contact-tel">Телефон:*</label>
             <input type="tel" id="contact-tel" name="contact-tel" placeholder="8 (960) 900-60-90">
           </div>
         </fieldset>
 
         <fieldset class="form__comment form-comment">
           <legend class="form__title form-comment__title">
-            <label for="comment" name="comment">Комментарий</label>
+            <label for="comment">Комментарий</label>
           </legend>
 
           <textarea id="comment" name="comment" rows="7" placeholder="Расскажите обо всех повадках кота"></textarea>
@@ -101,19 +101,19 @@
           <ul class="form-additionally__list">
             <li class="form-additionally__item">
               <input type="checkbox" id="additionally-sweetener" name="additionally-sweetener" checked>
-              <label for="additionally-sweetener" name="additionally-sweetener">Сахарозаменитель</label>
+              <label for="additionally-sweetener">Сахарозаменитель</label>
             </li>
             <li class="form-additionally__item">
               <input type="checkbox" id="additionally-water" name="additionally-water">
-              <label for="additionally-water" name="additionally-water">Питьевая вода</label>
+              <label for="additionally-water">Питьевая вода</label>
             </li>
             <li class="form-additionally__item">
               <input type="checkbox" id="additionally-milk" name="additionally-milk">
-              <label for="additionally-milk" name="additionally-milk">Молоко</label>
+              <label for="additionally-milk">Молоко</label>
             </li>
             <li class="form-additionally__item">
               <input type="checkbox" id="additionally-vitamins" name="additionally-vitamins">
-              <label for="additionally-vitamins" name="additionally-vitamins">Витамины</label>
+              <label for="additionally-vitamins">Витамины</label>
             </li>
           </ul>
         </fieldset>
@@ -123,13 +123,13 @@
       </form>
 
       <section class="map">
-        <h1 class="visually-hidden">Карта</h1>
+        <h2 class="visually-hidden">Карта</h2>
         <div class="map__wrap">
           <p class="map__text">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
           <p class="map__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
         </div>
         <iframe class="map__interactive" src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.576107178979!2d30.321962135596618!3d59.939175757766854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1522580251050' height='362' allowfullscreen></iframe>
-        <img class="map__img" src="img/bg-map-mobile@1x.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" width="100%" height="362">
+        <img class="map__img" src="img/bg-map-mobile@1x.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" height="362">
       </section>
     </main>
 
@@ -143,7 +143,7 @@
           <ul class="social__list">
             <li class="social__item">
               <a class="social__link social__link--vk" href="#" aria-label="Вконтакте">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="12" viewBox="0 0 22 12" style="enable-background:new 0 0 22 12;" xml:space="preserve">
+                <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="12" viewBox="0 0 22 12" style="enable-background:new 0 0 22 12;" xml:space="preserve">
                   <g>
                     <path
                       d="M17.6,12c-0.3,0-0.9-0.1-1.5-0.5c-0.5-0.3-0.9-0.7-1.3-1.2c-0.3-0.3-0.9-0.9-1.1-0.9c-0.2,0.1-0.4,0.7-0.3,1.2
@@ -167,7 +167,7 @@
             </li>
             <li class="social__item">
               <a class="social__link social__link--insta" href="#" aria-label="instagram">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
                   <style type="text/css">
                     .st0 {
                       fill: #231F20;
@@ -183,7 +183,7 @@
             </li>
             <li class="social__item">
               <a class="social__link social__link--fb" href="#" aria-label="facebook">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 10 19" style="enable-background:new 0 0 10 19;" xml:space="preserve">
+                <svg version="1.1" id="Layer_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 10 19" style="enable-background:new 0 0 10 19;" xml:space="preserve">
                   <g>
                     <path
                       d="M7.1,19H2v-8.8H0V5.8h1.9c-0.1-2,0.2-3.4,1.1-4.4C3.8,0.5,5,0.1,6.5,0L10,0v4.2H7.2C7.1,4.4,7,5,7,5.8H10v4.4H7.1V19z

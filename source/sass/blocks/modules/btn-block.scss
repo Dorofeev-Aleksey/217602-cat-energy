@@ -1,4 +1,6 @@
 .btn-block {
+  @include reset-btn();
+
   display: inline-block;
   vertical-align: top;
   width: 100%;
@@ -9,7 +11,7 @@
   color: #ffffff;
   text-align: center;
 
-  background-color: $btn-color;
+  background-color: $color-btn;
 
   border: none;
 }

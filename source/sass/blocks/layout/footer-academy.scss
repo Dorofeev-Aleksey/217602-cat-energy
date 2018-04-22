@@ -7,11 +7,10 @@
 .footer-academy__link {
   margin: 30px 0;
 
-  font-family: $arial;
-  line-height: 16px;
+  font-family: $font-arial;
   text-decoration: none;
-
-  @include textdecor-arial();
+  text-transform: none;
+  color: #444444;
 }
 
 .footer-academy__svg path {

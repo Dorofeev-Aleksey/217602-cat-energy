@@ -9,9 +9,10 @@
 }
 
 .living-example__text {
-  @include font-family();
+  font-family: $font-arial;
   font-size: 14px;
-  line-height: 18px;
+  text-transform: none;
+  color: #444444;
 }
 
 .living-example__result {
@@ -31,11 +32,13 @@
 
   border: 1px solid #e6e6e6;
   border-radius: 3px;
+
+  box-sizing: border-box;;
 }
 
 .living-example__result-info {
   font-size: 24px;
-  line-height: 10px;
+  line-height: 0;
 }
 
 .living-example__result-text {
@@ -45,19 +48,19 @@
 
   width: 80px;
 
-  font-family: $arial;
+  font-family: $font-arial;
   font-size: 12px;
-  line-height: 12px;
-
-  @include textdecor-arial();
-
+  color: #444444;
   text-transform: lowercase;
+  line-height: 1;
 
   background-color: #f2f2f2;
 }
 
-.living-example__img--lean-cat {
-  display: none;
+.living-example__img {
+  &--current {
+    display: none;
+  }
 }
 
 .living-example__range {
@@ -76,7 +79,6 @@
 
 .living-example__range-text {
   font-size: 16px;
-  line-height: 20px;
 }
 
 .living-example__range-bar {
@@ -89,26 +91,26 @@
 
   border: 1px solid #e6e6e6;
   border-radius: 5px;
-}
 
-.living-example__range-bar::before {
-  content: "";
+  &::before {
+    content: "";
 
-  position: absolute;
-  top: 3px;
-  left: 5px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
 
-  height: 6px;
-  width: 35px;
+    height: 6px;
+    width: 35px;
 
-  background-color: $btn-color;
-  border-radius: 5px;
+    background-color: $color-btn;
+    border-radius: 5px;
+  }
 }
 
 .living-example__range-btn {
-  text-transform: uppercase;
-
   background: none;
 
   border: none;
+
+  text-transform: uppercase;
 }

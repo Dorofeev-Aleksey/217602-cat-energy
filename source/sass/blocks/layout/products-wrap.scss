@@ -16,14 +16,15 @@
 }
 
 .products-wrap__more-text {
-  font-family: $arial;
+  font-family: $font-arial;
   font-size: 12px;
-  line-height: 16px;
-
-  @include textdecor-arial();
+  text-transform: none;
+  color: #444444;
 }
 
 .products-wrap__more-btn {
+  @include reset-btn();
+
   display: inline-block;
   vertical-align: top;
   width: 100%;

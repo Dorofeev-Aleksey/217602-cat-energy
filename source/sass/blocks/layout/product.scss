@@ -10,7 +10,6 @@
 
 .product__title {
   font-weight: 400;
-  line-height: 20px;
 }
 
 .product__img {
@@ -18,9 +17,8 @@
 }
 
 .product__line {
-  font-family: $arial;
+  font-family: $font-arial;
   font-size: 12px;
-  line-height: 16px;
-
-  @include textdecor-arial();
+  text-transform: none;
+  color: #444444;
 }

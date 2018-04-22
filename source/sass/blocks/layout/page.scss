@@ -4,9 +4,11 @@
 
   width: 320px;
 
-  font-family: $oswald;
+  font-family: $font-oswald;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1.4;
   font-weight: 400;
   text-transform: uppercase;
+
+  box-sizing: border-box;
 }
