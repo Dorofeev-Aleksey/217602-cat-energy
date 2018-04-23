@@ -1,0 +1,39 @@
+.products-wrap__more {
+  position: relative;
+
+  margin-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 25px;
+
+  text-align: center;
+
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.products-wrap__more-title {
+  font-weight: 400;
+}
+
+.products-wrap__more-text {
+  font-family: $font-arial;
+  font-size: 12px;
+  text-transform: none;
+  color: #444444;
+}
+
+.products-wrap__more-btn {
+  @include reset-btn();
+
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding: 10px 0;
+
+  font-size: 14px;
+  text-decoration: none;
+  color: #444444;
+  text-align: center;
+
+  background-color: #f2f2f2;
+}

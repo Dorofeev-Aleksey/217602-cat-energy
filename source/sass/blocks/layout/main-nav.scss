@@ -1,0 +1,11 @@
+.main-nav {
+  position: relative;
+}
+
+.main-nav__toggle {
+  @include reset-btn();
+
+  position: absolute;
+  top: -55px;
+  right: 0;
+}

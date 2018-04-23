@@ -1,0 +1,17 @@
+.btn-block {
+  @include reset-btn();
+
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding: 10px 0;
+
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+
+  background-color: $color-btn;
+
+  border: none;
+}

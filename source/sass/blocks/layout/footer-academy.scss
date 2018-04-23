@@ -1,0 +1,18 @@
+.footer-academy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-academy__link {
+  margin: 30px 0;
+
+  font-family: $font-arial;
+  text-decoration: none;
+  text-transform: none;
+  color: #444444;
+}
+
+.footer-academy__svg path {
+  fill: #444444;
+}
